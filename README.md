@@ -156,10 +156,25 @@ https://user-images.githubusercontent.com/18015488/118577616-052b6800-b78b-11eb-
 
 
 
-1. Ako úplne prvé, príkazom `sudo pacman-mirrors -g`, vyhľadáme najrýchlešie mirrory. Nie je to nutný krok, ale niekedy je potrebný keď sťahovanie z repozitárov je pomalé. (spoiler alert - nepomohlo) Toto chvíľu trvá, takže tento krok možno budete chcieť pretočiť.![Updates_1](https://user-images.githubusercontent.com/18015488/118577731-3c9a1480-b78b-11eb-90b7-5e39dc52a6be.png)
+1. Ako úplne prvé, príkazom `sudo pacman-mirrors -g`, vyhľadáme najrýchlešie mirrory. Nie je to nutný krok, ale niekedy je potrebný keď sťahovanie z repozitárov je pomalé. (spoiler alert - nepomohlo) Toto chvíľu trvá, takže tento krok možno budete chcieť pretočiť.
+
+![Updates_1](https://user-images.githubusercontent.com/18015488/118577731-3c9a1480-b78b-11eb-90b7-5e39dc52a6be.png)
 
 2. Príkazom `sudo pacman -Syu open-vm-tools` nainštalujeme podpornú službu pre VMware Workstation 16. Nie je to ale nutné mať. Každopádne sa nám rovno aj aktualizovali iné systémové komponenty, vrátane prehliadača Firefox.
+
+![Updates_2](https://user-images.githubusercontent.com/18015488/118578456-77e91300-b78c-11eb-864f-5e499cefbf29.png)
+
+![Updates_3](https://user-images.githubusercontent.com/18015488/118578625-c4cce980-b78c-11eb-9bbf-c94f9a1744ed.png)
+
+
 3. Príkazom `sudo mhwd -a pci free 0300` by sme sa mali poistiť, aby sme sa nedostali ku podobnému problému s WMvare ako pri bootovaní Live systému na začiatku.
+
+![Updates_4](https://user-images.githubusercontent.com/18015488/118578633-c8f90700-b78c-11eb-8dda-633440e83e20.png)
+
+4. Napriek tomu, že linuxáci sa často chvália, že oproti Windowsu, Lunux nie je vždy potrebné reštartovať po aktualizáciách, my to pre istotu aj tak urobíme ;)
+
+![Updates_5](https://user-images.githubusercontent.com/18015488/118578641-cc8c8e00-b78c-11eb-9da4-67f81786ede2.png)
+
 
 
 
