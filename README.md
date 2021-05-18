@@ -146,3 +146,22 @@ Annotácie k videu:
 6. Pre zvýšenie **komfortu**, som si nedal žiadne heslo (som prekvapený že mi to bolo inštalátorom dovolené), zapol automatické prihlasovanie, a... uh... rovnaké heslo má... root...? ***Way to get hacked!***. Ukážka katastrofálnej bezpečnosti. Na testovanie vo VM je to ešte pochopiteľné, avšak v produkčných systémoch je toto **veľké no no**...
 7. Potvrdíme zmeny na disku, ktoré budú už čoskoro nezvratné, a systém sa začne inštalovať. Ak neinštalujete zarovno s videom, určite si ho pretočte...
 8. Hotovo! Klikneme na tlačidlo *Dokončiť* a v live systéme sme prakticky skončili!
+
+# Prvé spustenie systému, a inštalácia aktualizácií
+
+Cítite tú vôňu? No, možno to nie je nové auto, ale nabootovali sme do nového, čistého systému!
+Teraz by to hneď na začiatok chcelo aktualizácie, predsa len, sme v Arch vetve ;)
+
+https://user-images.githubusercontent.com/18015488/118577616-052b6800-b78b-11eb-9dbe-b8b3fb08726f.mp4
+
+
+
+1. Ako úplne prvé, príkazom `sudo pacman-mirrors -g`, vyhľadáme najrýchlešie mirrory. Nie je to nutný krok, ale niekedy je potrebný keď sťahovanie z repozitárov je pomalé. (spoiler alert - nepomohlo) Toto chvíľu trvá, takže tento krok možno budete chcieť pretočiť.![Updates_1](https://user-images.githubusercontent.com/18015488/118577731-3c9a1480-b78b-11eb-90b7-5e39dc52a6be.png)
+
+2. Príkazom `sudo pacman -Syu open-vm-tools` nainštalujeme podpornú službu pre VMware Workstation 16. Nie je to ale nutné mať. Každopádne sa nám rovno aj aktualizovali iné systémové komponenty, vrátane prehliadača Firefox.
+3. Príkazom `sudo mhwd -a pci free 0300` by sme sa mali poistiť, aby sme sa nedostali ku podobnému problému s WMvare ako pri bootovaní Live systému na začiatku.
+
+
+
+
+# Inštalácia aplikácií a nastavenie systému pre účely zadania
