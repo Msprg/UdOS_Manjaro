@@ -188,12 +188,32 @@ Zadaním bolo vytvoriť systém pre tím programátorov. Keďže nevieme kto bud
 
 
 1. Príkazom `sudo -i` vstúpime do režimu superusera v interaktívnom móde. To aby sme pred všetky nasledujúce príkazy nemuseli písať `sudo`.
-2. Príkazom `pacman -Sy git code base-devel neofetch` si nainštalujeme nejaké základné balíčky, kde `code` je aktuálne veľmi populárny editor *Microsoft Visual Studio Code*, tu dokonca v open-source verzii, `base-devel` nám poskytuje základné kompilačné nástroje vrátane `make`, a taktiež nesmie chýbať `neofetch`. Sme v Arch vetve, a nie, ja s tým neprestanem :D
+
+![Setup_1](https://user-images.githubusercontent.com/18015488/118583978-39585600-b796-11eb-85ce-fa7f57228572.png)
+
+2. Príkazom `pacman -Sy git code base-devel neofetch` si nainštalujeme nejaké základné balíčky, kde `code` je aktuálne veľmi populárny editor *Microsoft Visual Studio Code*, tu dokonca v open-source verzii, `base-devel` nám poskytuje základné kompilačné nástroje vrátane `make`, a taktiež nesmie chýbať `neofetch`.
+
+![Setup_2](https://user-images.githubusercontent.com/18015488/118584368-14181780-b797-11eb-8d59-19bee71ba605.png)
+
+![neofetch](https://user-images.githubusercontent.com/18015488/118584378-18dccb80-b797-11eb-96fe-524c9f62ec6f.png)
+Sme v Arch vetve, a nie, ja s tým neprestanem :D
+
 3. Teraz si pridáme skupinu do ktorej budú patriť naši programátori, príkazom `groupadd coders`.
 4. Začneme vytvárať používateľské účty pre programátorov, pre demonštráciu iba `coder1`, ale rovnakým postupom si ich pridáme koľko len bude potrebné.
 5. Nastavíme im heslo, ale žiadny strach, taktiež ich prinútime, nech si pri prvom prihlásení urobia vlastné ;)
 6. Pridáme ich do skupiny `coders`.
+
+![Setup_3](https://user-images.githubusercontent.com/18015488/118584694-cc45c000-b797-11eb-8464-5b38574199fc.png)
+
 7. Nakoniec nám stačí vytvoriť zdieľané úložisko, napríklad formou zdieľanej zložky `coders/` v `/shared/`, nastavením správnej skupiny, prístupových práv a samozrejme **setgid**.
+
+![Setup_4](https://user-images.githubusercontent.com/18015488/118584711-d10a7400-b797-11eb-9e2d-ceac3f3668f8.png)
+
+8. Skúsime si ešte overiť či doň programátori vedia zapisovať:
+
+![Setup_5](https://user-images.githubusercontent.com/18015488/118585515-58a4b280-b799-11eb-8139-757b385fa072.png)
+
+
 
 # Hotovo!
 
