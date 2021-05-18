@@ -1,0 +1,15 @@
+sudo -i
+pacman -Sy git code base-devel neofetch
+
+discord, slack, teams, telegram...
+
+groupadd coders
+useradd -m coder1
+passwd coder1
+#passwd -e coder1
+
+gpasswd -a coder1 coders
+
+mkdir -p /shared/coders
+chgrp -R coders /shared/coders
+chmod -R 2775 /shared/coders
