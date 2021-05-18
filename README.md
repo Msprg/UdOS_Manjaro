@@ -115,5 +115,12 @@ Po nainštalovaní a otvorení programu **VMware Workstation 16**, môžeme zač
 
 
 
+# Prvé spustenie a inštalácia systému
+
+**GitHub vraj podporuje vidá v MarkDown-e! A natívne! Tak schválne, či nám to funguje ;) **
+(a dúfam že sa mi to v PDF-ku nerozpadne :/ )
+
+
+https://user-images.githubusercontent.com/18015488/118571723-fe96f380-b77e-11eb-81f1-512f4b7b2279.mp4
 
 
