@@ -183,4 +183,7 @@ https://user-images.githubusercontent.com/18015488/118577616-052b6800-b78b-11eb-
 
 # Inštalácia aplikácií a nastavenie systému pre účely zadania
 
+Zadaním bolo vytvoriť systém pre tím programátorov. Keďže nevieme kto bude v akom jazyku programovať, nainštalujeme len nejaké základné veci. Podpora pre konkrétne jazyky by sa v praxi doinštalovala neskôr - dodatočne. Čo sa komunikácie a plánovania týka, v aktuálnej situácií sú najpopulárnejšie služby asi Microsoft Teams, Slack, Discord, GitHub, možno Skype...? Z ktorých **všetky** sú web aplikácie a teda bežia natívne v browseri. Ak si do toho prirátam, že Teams robí na linuxe iba samé problémy, Discord je horor updatovať, a ešte som nikoho nevidel používať GitHub Desktop na Linuxe... (Taktiež Skype? Nainštalovaný na Linuxe? Ku tomu ma neprinútite), rozhodol som sa ich neinštalovať,
+> "Veď, aj tak je to všetko len samý bloat..." - Určite nejaký Arch user
+
 
