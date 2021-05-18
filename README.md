@@ -34,4 +34,35 @@ Manjaro sa z [oficiálnej stránky](https://manjaro.org/download/) dá získať 
 
 
 
+Ja som sa z dôvodov asi najnižších HW nárokov, rozhodol pre verziu s XFCE...
+
+
+# Príprava nového virtuálneho stroja vo VMware Workstation 16
+
+Po nainštalovaní a otvorení programu **VMware Workstation 16**, môžeme začať tvorbou nového virtuálneho stroja, ktorou sa vás teraz pokúsim previesť:
+
+1. V hornom menu, si z menu *Files*, vyberieme položku *New Virtual Machine...*. Alternatívne môžeme stlačiť `ctrl+N`.
+
+![VM_1](https://user-images.githubusercontent.com/18015488/118569168-ac070880-b779-11eb-9e3f-d23fe5bd5a6e.png)
+
+2. Privíta nás okno sprievodcu. Vyberieme si **Custom**, pretože sme predsa *(advanced)* ;) .
+3. Nastavenie kompatibility necháme na *Workstation 16.x* (nebudeme VM prenášať do starších verzií programu Workstation).
+4. Vyberieme si stiahnuté inštalačné ISO distribúcie **Manjaro**.
+5. Vyberieme si operačný systém typu *Linux*, ale, *Manjaro*, a navyše ani *Arch* v zozname distribúcií nenájdeme :( .
+6. Nevadí, zvolíme si *Debian 10.x 64-bit*, fungovať by to malo rovnako.
+7. Zvolíme si názov pre našu VM. Mne stačí aj jednoduché *Manjaro 21.X*. Umiestnenie súborov VM necháme predvolené.
+8. Pridelíme VM virtuálne procesor-y a jadrá. V podstate výkon. 1 processor so štyrmi jadrami by mal byť až až...
+9. Pridelíme VM virtuálnu pamäť. *Manjaro* ako také - postavené na **Arch**, určite nebude mať vysoké nároky na pamäť. Prostredie **XFCE** je taktiež jedno z najekonomickejších! 2GiB by mali celkom stačiť.
+10. Použijeme sieťovanie v móde NAT. Býva s ním najmenej komplikácií.
+11. Necháme predvolené - na LSIL - pre naše použitie nepodstatné.
+12. Necháme predvolené - na SCSI - opäť, pre naše použitie nepodstatné.
+13. Vytvoríme si nový virtuálny disk...
+14. ... s veľkosťou 10GiB. Pre reálny systém trochu málo, ale pre naše demonštračné účely dostačujúce. Súbor je dosť malý na to, aby sme zvolili možnosť **Store vd as a single file**.
+15. Pokiaľ máte málo miesta na disku s ostatnými súbormi VM, uložte si disk inam. Preferujte rýchle úložiská s nízkou latenciou a vysokou priepustnosťou.
+16. Súhrnné menu. Zatiaľ tu nič nepotrebujeme meniť.
+17. Doplňujúci krok "pre odvážnych". Môžeme  si zapnúť podporu **UEFI**, keď chceme bootovať *moderne*. :)
+18. Máme hotovo.
+
+
+
 
