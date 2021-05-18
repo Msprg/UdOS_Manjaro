@@ -187,3 +187,14 @@ Zadaním bolo vytvoriť systém pre tím programátorov. Keďže nevieme kto bud
 > "Veď, aj tak je to všetko len samý bloat..." - Určite nejaký Arch user
 
 
+1. Príkazom `sudo -i` vstúpime do režimu superusera v interaktívnom móde. To aby sme pred všetky nasledujúce príkazy nemuseli písať `sudo`.
+2. Príkazom `pacman -Sy git code base-devel neofetch` si nainštalujeme nejaké základné balíčky, kde `code` je aktuálne veľmi populárny editor *Microsoft Visual Studio Code*, tu dokonca v open-source verzii, `base-devel` nám poskytuje základné kompilačné nástroje vrátane `make`, a taktiež nesmie chýbať `neofetch`. Sme v Arch vetve, a nie, ja s tým neprestanem :D
+3. Teraz si pridáme skupinu do ktorej budú patriť naši programátori, príkazom `groupadd coders`.
+4. Začneme vytvárať používateľské účty pre programátorov, pre demonštráciu iba `coder1`, ale rovnakým postupom si ich pridáme koľko len bude potrebné.
+5. Nastavíme im heslo, ale žiadny strach, taktiež ich prinútime, nech si pri prvom prihlásení urobia vlastné ;)
+6. Pridáme ich do skupiny `coders`.
+7. Nakoniec nám stačí vytvoriť zdieľané úložisko, napríklad formou zdieľanej zložky `coders/` v `/shared/`, nastavením správnej skupiny, prístupových práv a samozrejme **setgid**.
+
+# Hotovo!
+
+Tak, a je to! Programátori majú aspoň základné programátorské nástroje, súkromné úložisko vo forme svojho domovského adresára, a zdieľané úložisko vo forme zdieľaného adresára. Nejaké sieťové úložisko by možno bolo lepšie, avšak myslím, že to je už mimo zadania.
