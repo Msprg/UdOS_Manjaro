@@ -6,22 +6,15 @@ Autor: Matúš Prančík
 
 # Obsah - TOC
 
-- [UdOS_Manjaro](#udos-manjaro)
+- [UdOS_Manjaro](#udos_manjaro)
 - [Obsah - TOC](#obsah---toc)
 - [Zadanie semestrálneho projektu](#zadanie-semestrálneho-projektu)
-- [Kde a ako získať Manjaro](#kde-a-ako-z-ska--manjaro)
-- [Príprava nového virtuálneho stroja vo VMware Workstation 16](#pr-prava-nov-ho-virtu-lneho-stroja-vo-vmware-workstation-16)
-- [Prvé spustenie a inštalácia systému](#prv--spustenie-a-in-tal-cia-syst-mu)
-- [Prvé spustenie systému, a inštalácia aktualizácií](#prv--spustenie-syst-mu--a-in-tal-cia-aktualiz-ci-)
-- [Inštalácia aplikácií a nastavenie systému pre účely zadania](#in-tal-cia-aplik-ci--a-nastavenie-syst-mu-pre---ely-zadania)
+- [Kde a ako získať Manjaro](#kde-a-ako-získať-manjaro)
+- [Príprava nového virtuálneho stroja vo VMware Workstation 16](#príprava-nového-virtuálneho-stroja-vo-vmware-workstation-16)
+- [Live systém a inštalácia systému](#Live-systém-a-inštalácia-systému)
+- [Prvé spustenie systému, a inštalácia aktualizácií](#Prvé-spustenie-systému,-a-inštalácia-aktualizácií)
+- [Inštalácia aplikácií a nastavenie systému pre účely zadania](#Inštalácia-aplikácií-a-nastavenie-systému-pre-účely-zadania)
 - [Hotovo!](#hotovo)
-
-# Table of Contents
-* [Team Members](#team-members)
-
-# <a name="team-members"></a>Team Members
-* "J. Jesus. P. Aguinaga" <admin@listforks.com>
-
 
 # Zadanie semestrálneho projektu
 
@@ -134,7 +127,7 @@ Po nainštalovaní a otvorení programu **VMware Workstation 16**, môžeme zač
 
 
 
-# Prvé spustenie a inštalácia systému
+# Live systém a inštalácia systému
 
 To bolo pekných pár obrázkov. 18 aby som bol presný. Inštalácia ich bude mať tiež dosť. Ach, keby sme len mali niećo čo by tento problém riešilo...
 **GitHub vraj podporuje videá v MarkDown-e! A natívne! Tak schválne, či nám to funguje ;) **
