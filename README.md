@@ -12,7 +12,7 @@ Autor: Matúš Prančík
 - [Kde a ako získať Manjaro](#kde-a-ako-získať-manjaro)
 - [Príprava nového virtuálneho stroja vo VMware Workstation 16](#príprava-nového-virtuálneho-stroja-vo-vmware-workstation-16)
 - [Live systém a inštalácia systému](#Live-systém-a-inštalácia-systému)
-- [Prvé spustenie systému, a inštalácia aktualizácií](#prvé-spustenie-systému--a-inštalácia-aktualizácií)
+- [Prvé spustenie systému, a inštalácia aktualizácií](#prvé-spustenie-systému-a-inštalácia-aktualizácií)
 - [Inštalácia aplikácií a nastavenie systému pre účely zadania](#Inštalácia-aplikácií-a-nastavenie-systému-pre-účely-zadania)
 - [Hotovo!](#hotovo)
 
