@@ -217,4 +217,7 @@ Sme v Arch vetve, a nie, ja s tým neprestanem :D
 
 # Hotovo!
 
-Tak, a je to! Programátori majú aspoň základné programátorské nástroje, súkromné úložisko vo forme svojho domovského adresára, a zdieľané úložisko vo forme zdieľaného adresára. Nejaké sieťové úložisko by možno bolo lepšie, avšak myslím, že to je už mimo zadania.
+Tak, a je to! Programátori majú aspoň základné programátorské nástroje, súkromné úložisko vo forme svojho domovského adresára, a zdieľané úložisko vo forme zdieľaného adresára. Nejaké sieťové úložisko by možno bolo lepšie, avšak myslím, že to je už trochu mimo zadania. Ako bolo spomenuté, prípadná jazyková podpora by nemala predstavovať žiaden problém, stačí doinštalovať, obvykle 1 až pár príkazov (alebo odkaz na skript).
+
+
+Kažopádne dúfam že je táto práca vyhotovená podľa predstáv, a taktiež že sa prezenácia pomocou Markdown-u páčila!
