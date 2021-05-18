@@ -150,8 +150,10 @@ Annotácie k videu:
 # Prvé spustenie systému, a inštalácia aktualizácií
 
 Cítite tú vôňu? No, možno to nie je nové auto, ale nabootovali sme do nového, čistého systému!
-Teraz by to hneď na začiatok chcelo aktualizácie, predsa len, sme v Arch vetve ;)
+Teraz by to hneď na začiatok chcelo aktualizácie, predsa len, sme v Arch vetve. ;)
 
+
+Na prvý boot systému sa môžete pozrieť tu, a potom už ale s videami končíme. :(
 https://user-images.githubusercontent.com/18015488/118577616-052b6800-b78b-11eb-9dbe-b8b3fb08726f.mp4
 
 
