@@ -178,6 +178,9 @@ https://user-images.githubusercontent.com/18015488/118577616-052b6800-b78b-11eb-
 ![Updates_5](https://user-images.githubusercontent.com/18015488/118578641-cc8c8e00-b78c-11eb-9da4-67f81786ede2.png)
 
 
+![reboot](https://user-images.githubusercontent.com/18015488/118579718-e4fda800-b78e-11eb-8793-2ec8fd261fd9.gif)
+Viete ako bolo vyššie napísané, že tu ďalšie videá už nebudú... ... toto je gif :D
+
 
 
 
