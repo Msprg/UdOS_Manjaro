@@ -132,3 +132,6 @@ Pred spustením teda zmeníme ovládač na `mesa` a úspešne nabootujeme do liv
 https://user-images.githubusercontent.com/18015488/118571723-fe96f380-b77e-11eb-81f1-512f4b7b2279.mp4
 
 
+Keď už sme v grafickom Live prostredí, prečo nevyužiť grafický inštalátor?
+(Pokiaľ by sme chceli systém inštalovať zarovno s tutoriálom, vďaka tomu že video má ovládacie prvky, si ho možene zastaviť alebo pretočiť ako je potrebné)
+
