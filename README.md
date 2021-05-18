@@ -135,3 +135,14 @@ https://user-images.githubusercontent.com/18015488/118571723-fe96f380-b77e-11eb-
 Keď už sme v grafickom Live prostredí, prečo nevyužiť grafický inštalátor?
 (Pokiaľ by sme chceli systém inštalovať zarovno s tutoriálom, vďaka tomu že video má ovládacie prvky, si ho možene zastaviť alebo pretočiť ako je potrebné)
 
+
+
+Annotácie k videu:
+1. Spustíme grafický inštalátor,
+2. Zvolíme si regionálne nastavenia, t.j. lokalita, časové pásmo a pod.
+3. Zvolíme si mapovanie klávesnice. Ja si zvolím slovenskú, (za čo by mi niektorí jedinci možno ublížili na zdraví, ale na(ne)štastie, návštevy nie sú odporúčané :) )
+4. Môžeme si dovoliť zvoliť vymazanie celého disku, keďže náš 10 GiB disk je aj tak prakticky čistý. Odkladací priestor (*swap*) si budeme ukladať do súboru. čisto iba z dôvodu že to takto robím radšej. Zjednodušuje to prípadné úpravy partícií na disku v budúcnosti.
+5. Vytvárame si účet "prvého užívateľa", čo budeme my. Napríklad *Administrátor*. Meno na prihlásenie som si skrátil na *admin*. Názov systému bude *Code_Server_1* (ako by ich malo byť viac, heh...).
+6. Pre zvýšenie **komfortu**, som si nedal žiadne heslo (som prekvapený že mi to bolo inštalátorom dovolené), zapol automatické prihlasovanie, a... uh... rovnaké heslo má... root...? ***Way to get hacked!***. Ukážka katastrofálnej bezpečnosti. Na testovanie vo VM je to ešte pochopiteľné, avšak v produkčných systémoch je toto **veľké no no**...
+7. Potvrdíme zmeny na disku, ktoré budú už čoskoro nezvratné, a systém sa začne inštalovať. Ak neinštalujete zarovno s videom, určite si ho pretočte...
+8. Hotovo! Klikneme na tlačidlo *Dokončiť* a v live systéme sme prakticky skončili!
