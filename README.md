@@ -118,7 +118,7 @@ Po nainštalovaní a otvorení programu **VMware Workstation 16**, môžeme zač
 # Prvé spustenie a inštalácia systému
 
 To bolo pekných pár obrázkov. 18 aby som bol presný. Inštalácia ich bude mať tiež dosť. Ach, keby sme len mali niećo čo by tento problém riešilo...
-**GitHub vraj podporuje vidá v MarkDown-e! A natívne! Tak schválne, či nám to funguje ;) **
+**GitHub vraj podporuje videá v MarkDown-e! A natívne! Tak schválne, či nám to funguje ;) **
 (a dúfam že sa mi to v PDF-ku nerozpadne :/ )
 
 
