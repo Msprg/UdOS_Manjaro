@@ -117,9 +117,17 @@ Po nainštalovaní a otvorení programu **VMware Workstation 16**, môžeme zač
 
 # Prvé spustenie a inštalácia systému
 
+To bolo pekných pár obrázkov. 18 aby som bol presný. Inštalácia ich bude mať tiež dosť. Ach, keby sme len mali niećo čo by tento problém riešilo...
 **GitHub vraj podporuje vidá v MarkDown-e! A natívne! Tak schválne, či nám to funguje ;) **
 (a dúfam že sa mi to v PDF-ku nerozpadne :/ )
 
+
+
+* Takže, spustíme si náš virtuálny stroj. Keď som to predtým skúšal, narazil som hneď na začiatku na problém. Systém sa pri bootovaní zasekol, a ďaľej sa mu veľmi nechcelo. Takže tu máme problém hneď na začiatku. (Pri mojom šťastí už ani nie som prekvapený :D ).
+* Ako sa však ukázalo, **nie je to chyba našek konfigurácie**, vzhľadom na to, že tento problém konkrétne s kombináciou distribúcie Manjaro a VMware, sa ukázal iba nedávno, a nie som jediný kto si to všimol...
+
+Podľa [tejto odpovede](https://forum.manjaro.org/t/installation-issue-livemedia-mhwd-script-hangs/59999/5), sa to dá "obísť" zmenou používaných ovládačov.
+Pred spustením teda zmeníme ovládač na `mesa` a úspešne nabootujeme do live prostredia!
 
 https://user-images.githubusercontent.com/18015488/118571723-fe96f380-b77e-11eb-81f1-512f4b7b2279.mp4
 
